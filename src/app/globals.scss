@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+button,
+a {
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1360px;
+  padding: 0 10px;
+}

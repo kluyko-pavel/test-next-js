@@ -1,0 +1,33 @@
+.footer {
+  background-color: #000;
+  min-height: 239px;
+  padding: 58px 0 50px 0;
+}
+.contacts {
+  display: flex;
+  gap: 168px;
+}
+.contactsTitle {
+  display: inline-block;
+  color: #fff;
+}
+.contactsData {
+  margin: 20px 0 0 30px;
+  display: block;
+}
+
+@media (max-width: 630px) {
+  .footer {
+    min-height: 200px;
+    padding: 48px 0 40px 0;
+  }
+  .contacts {
+    gap: 80px;
+  }
+}
+
+@media (max-width: 430px) {
+  .contacts {
+    gap: 10px;
+  }
+}

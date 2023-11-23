@@ -1,0 +1,30 @@
+.mapWrapper {
+  width: 100%;
+  height: 544px;
+  background-color: rgba(0, 0, 0, 1);
+  margin-top: 136px;
+}
+.map {
+  width: 100%;
+  opacity: 0.8;
+  height: 100%;
+}
+
+@media (max-width: 1240px) {
+  .mapWrapper {
+    height: 444px;
+  }
+}
+
+@media (max-width: 930px) {
+  .mapWrapper {
+    height: 300px;
+    margin-top: 116px;
+  }
+}
+
+@media (max-width: 630px) {
+  .mapWrapper {
+    height: 250px;
+  }
+}

@@ -1,0 +1,10 @@
+.main {
+  flex: 1;
+  position: relative;
+}
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 101px;
+}

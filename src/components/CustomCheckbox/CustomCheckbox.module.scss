@@ -1,0 +1,25 @@
+.customCheckbox {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+  height: 56px;
+  width: 56px;
+}
+.input {
+  opacity: 0;
+  &:checked ~ .customTick {
+    display: block;
+  }
+}
+.customCheckmark {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+}
+.customTick {
+  position: absolute;
+  display: none;
+  left: 5px;
+  top: -3px;
+}
